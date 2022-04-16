@@ -8,15 +8,16 @@
 
 ### FILES INCLUDED
 Following files are included in the zipped folder.
-driver.py – This is the driver code for the program. This is where the main() is.
-adaBoost.py – adaBoost implementation for classification.
-decisionTree.py – Decision Tree implementation for classification.
-checkFeatures.py – Contains features described and used for splitting the data.
-treeNode.py – Contains class tree. Useful for recursing and for keeping track of left and right child.
-dtModel.obj – Pretrained Decision tree model (depth: 1)
-adaModel.obj – Pretrained adaBoost model (totalDecisionStumps: 70)
-train.dat – training data for both the models.
-test.dat – testing data for both the models.
+
+- driver.py – This is the driver code for the program. This is where the main() is.
+- adaBoost.py – adaBoost implementation for classification.
+- decisionTree.py – Decision Tree implementation for classification.
+- checkFeatures.py – Contains features described and used for splitting the data.
+- treeNode.py – Contains class tree. Useful for recursing and for keeping track of left and right child.
+- dtModel.obj – Pretrained Decision tree model (depth: 1)
+- adaModel.obj – Pretrained adaBoost model (totalDecisionStumps: 70)
+- train.dat – training data for both the models.
+- test.dat – testing data for both the models.
 
                    
                    
