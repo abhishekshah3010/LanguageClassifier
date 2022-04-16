@@ -131,8 +131,7 @@ Decision Tree:
 - With depth set to 1, of all the examples only one example was classified wrongly. It can be easily fixed by just tuning in the features.
 
 
-Decision tree parameter settings
-	For changing depth, assign new value to depth variable in dtTrain function.
+- Decision tree parameter settings: For changing depth, assign new value to depth variable in dtTrain function.
 
 
 AdaBoost:
@@ -144,8 +143,7 @@ AdaBoost:
 - With totalDecisionStumps set to 70, of all the examples only one examples was classified wrongly. It can be easily fixed by just tuning in the features.
 
 
-AdaBoost parameter settings
-	For changing totalDecisionStumps, assign new value to in adaDataCollection function.
+- AdaBoost parameter settings: For changing totalDecisionStumps, assign new value to in adaDataCollection function.
 
 
 
