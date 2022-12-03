@@ -49,7 +49,7 @@ Let us consider one example.
 Say, we are running a “dt” model.
 The flow of the program along with the output will be as followed.
 
-python3  driver.py  train  train.dat  dtModel.obj  dt 
+- python3  driver.py  train  train.dat  dtModel.obj  dt 
 
 After running,
 
@@ -57,20 +57,20 @@ You will get your model saved by the name dtModel.
 
 Using this model, we run the test command,
 
-python3  driver.py  predict  dtModel.obj  test.dat  dt
+- python3  driver.py  predict  dtModel.obj  test.dat  dt
 
 After running this command, we get the following output.
 
-en
-nl
-en
-nl
-en
-en
-nl
-en
-en
-en
+	en
+	nl
+	en
+	nl
+	en
+	en
+	nl
+	en
+	en
+	en
 
 These are nothing but the languageLabel for all the lines that are there in test.dat.
 
